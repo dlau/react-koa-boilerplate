@@ -1,0 +1,55 @@
+{
+  "name": "react-koa-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --reporter spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dlau/react-koa-boilerplate"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "koa",
+    "boilerplate"
+  ],
+  "author": "Daryl Lau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlau/react-koa-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dlau/react-koa-boilerplate",
+  "dependencies": {
+    "gulp-rename": "~1.2.0",
+    "gulp-clean": "~0.3.1",
+    "gulp-util": "~3.0.1",
+    "gulp-nodemon": "~1.0.4",
+    "gulp": "~3.8.8",
+    "gulp-react": "~1.0.2",
+    "webpack": "~1.4.1-beta1",
+    "koa-logger": "~1.2.2",
+    "koa-router": "~3.4.0",
+    "koa": "~0.12.0",
+    "react": "~0.11.2",
+    "node-jsx": "~0.11.0",
+    "jsx-loader": "~0.11.0",
+    "nodemon": "~1.2.1",
+    "koa-static": "~1.4.7",
+    "style-loader": "~0.8.0",
+    "css-loader": "~0.8.0",
+    "less": "~1.7.5",
+    "less-loader": "~0.7.7",
+    "should": "~4.0.4",
+    "mocha": "~1.21.4",
+    "co-views": "~0.2.0",
+    "jade": "~1.7.0",
+    "co": "~3.1.0",
+    "koa-body": "~0.3.0",
+    "bluebird": "~2.3.5",
+    "thunkify": "~2.1.2",
+    "debug": "~2.0.0"
+  }
+}
